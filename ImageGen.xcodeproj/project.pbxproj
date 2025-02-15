@@ -11,6 +11,10 @@
 		326810892D60BA4400824CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326810882D60BA4400824CB9 /* ContentView.swift */; };
 		3268108B2D60BA4600824CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3268108A2D60BA4600824CB9 /* Assets.xcassets */; };
 		3268108E2D60BA4600824CB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3268108D2D60BA4600824CB9 /* Preview Assets.xcassets */; };
+		32B070D52D60E0470096F91F /* GenerateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B070D42D60E0450096F91F /* GenerateImageView.swift */; };
+		32B070D72D60E05C0096F91F /* GenerateKeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B070D62D60E05B0096F91F /* GenerateKeysView.swift */; };
+		32B070D92D60E06B0096F91F /* AddKeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B070D82D60E06A0096F91F /* AddKeysView.swift */; };
+		32B070DB2D60E0F50096F91F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B070DA2D60E0F30096F91F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		326810882D60BA4400824CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3268108A2D60BA4600824CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3268108D2D60BA4600824CB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32B070D42D60E0450096F91F /* GenerateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateImageView.swift; sourceTree = "<group>"; };
+		32B070D62D60E05B0096F91F /* GenerateKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateKeysView.swift; sourceTree = "<group>"; };
+		32B070D82D60E06A0096F91F /* AddKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKeysView.swift; sourceTree = "<group>"; };
+		32B070DA2D60E0F30096F91F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		326810852D60BA4400824CB9 /* ImageGen */ = {
 			isa = PBXGroup;
 			children = (
+				32B070D32D60E0320096F91F /* ViewModel */,
+				32B070D22D60E02E0096F91F /* View */,
+				32B070D12D60E0250096F91F /* Model */,
 				326810862D60BA4400824CB9 /* ImageGenApp.swift */,
-				326810882D60BA4400824CB9 /* ContentView.swift */,
 				3268108A2D60BA4600824CB9 /* Assets.xcassets */,
 				3268108C2D60BA4600824CB9 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				3268108D2D60BA4600824CB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32B070D12D60E0250096F91F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32B070D22D60E02E0096F91F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				326810882D60BA4400824CB9 /* ContentView.swift */,
+				32B070DA2D60E0F30096F91F /* HomeView.swift */,
+				32B070D82D60E06A0096F91F /* AddKeysView.swift */,
+				32B070D62D60E05B0096F91F /* GenerateKeysView.swift */,
+				32B070D42D60E0450096F91F /* GenerateImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32B070D32D60E0320096F91F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +175,10 @@
 			files = (
 				326810892D60BA4400824CB9 /* ContentView.swift in Sources */,
 				326810872D60BA4400824CB9 /* ImageGenApp.swift in Sources */,
+				32B070D92D60E06B0096F91F /* AddKeysView.swift in Sources */,
+				32B070DB2D60E0F50096F91F /* HomeView.swift in Sources */,
+				32B070D52D60E0470096F91F /* GenerateImageView.swift in Sources */,
+				32B070D72D60E05C0096F91F /* GenerateKeysView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
